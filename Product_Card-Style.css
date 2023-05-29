@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.Wrapper{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: beige;
+}
+
+.Container{
+    display:flex;
+    height:360px;
+    flex-basis: 550px;
+    background-color: blue;
+    align-content: baseline;
+    border-radius: 12px;
+}
+
+
+#Mug{
+    height:360px;
+    width:300px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+
+#Box-2{
+    position:relative;
+    width: 350px;
+    background-color: white;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+
+#Add_to_Cart{
+    position:absolute;
+    bottom:40px;
+    left:15%;
+    display:flex;
+    background-color: rgb(86, 127, 86);
+    height:40px;
+    width:250px;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    color:white;
+    transform: translateX(-20px);
+}
+
+#Icon{
+    margin:10px;
+}
+
+#Price1,#Price2{
+    position:absolute;
+    bottom:90px;
+    /* left:20px; */
+}
+
+#Price1{
+    left:30px;
+    font-size:25px;
+    font-weight:900;
+    color:rgb(86, 127, 86);
+
+}
+
+#Price2{
+    left:90px;
+    text-decoration: line-through;
+    text-decoration-thickness:1px;
+}
+
+.Desc{
+    margin-left:30px;
+    margin-bottom: 10px;
+    padding-right:2px;
+}
+
+#COFFEE{
+    padding-top:20px;
+    font-family:"Montserrat",san-serif;
+    letter-spacing: 5px;
+}
+
+#White{
+    font-family: "Fraunces",serif;
+    font-size:40px;
+
+}
+
+#Coffee{
+    font-family:"Montserrat",san-serif;
+    font-weight: 200;
+    margin-right:4px;
+}
+
+
+
+
